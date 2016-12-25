@@ -1,0 +1,81 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 200;
+	font-size: 1.2em;
+	overflow-x: hidden; 
+	height: 100%;
+	color: #ecf0f1;
+}
+header{
+	position: relative;
+	margin: 0px -9999rem;
+	padding: 2.125rem 9999rem;
+	background-color: #34495e;
+	color: #f1c40f;
+}
+header h2{
+	padding: 0em 10.50rem;
+	text-align: left;
+	font-size: 2em;
+}
+nav{
+	position: relative;
+
+	background-color: #2c3e50;
+	color: #f1c40f;
+	border-bottom: 1px solid #ecf0f1;
+}
+nav a{
+	padding: 10px;
+	text-decoration: none;
+	color: #ecf0f1;
+	font-size: .6em;
+}
+nav li{
+	display: inline;
+	list-style: none;
+}
+nav ul{
+	padding: 0px 10.50rem;
+}
+nav a:hover{
+	color: #f1c40f;
+}
+section, footer{
+	position: relative;
+	margin: 0px -9999rem;
+	padding: 4.25rem 9999rem;
+}
+section h2, footer h2{
+	padding: 0px 10.50rem 35px 10.50rem;
+}
+header p, section p, footer p{
+	padding: 0px 10.50rem;
+	text-align: left;
+}
+#about_me{
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}
+#qualifications{
+	background-color: #3498db;
+}
+#past_projects{
+	position: relative;
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}
+#past_projects img{
+	margin-left: 10.50rem;
+}
+#code_snippets{
+	background-color: #3498db;
+}
+footer{
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}

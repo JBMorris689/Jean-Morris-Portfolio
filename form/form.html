@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="eng">
+	<head>
+		<title>E-Mail List Form</title>
+		<meta charset="utf-8"/>
+		<style>
+			form{
+				display: block;
+				width: 45%;
+				background-color: #ffffff;
+				border: 2px solid #669999;
+				box-shadow: 2px 5px 5px 5px #888888;
+			}
+			label{
+				display: block;
+				width: 100%;
+				height: 2.5em;
+				text-align: center;
+				background-color: #669999;
+				color: #ffffff;
+				font-size: 1.5em;
+				line-height: 2.5em;
+			}
+			input[type=text]{
+				display: block;
+				width: 95%;
+				height: 25px;
+				padding: 10px 0px 0px 0px;
+				margin: 0 auto;
+				border: 0;
+				border-bottom: 1px solid #669999;
+			}
+			input[type=text]:focus, input[type=submit]:focus{
+				outline: none;
+			}
+			input[type=submit]:hover{
+				background-color: #669999;
+			}
+			input[type=submit]:active{
+				transform: translateY(1px);
+			}
+			input[type=submit]{
+				display: block;
+				width: 95%;
+				padding: 8px;
+				margin: 0 auto;
+				background-color: #476b6b;
+				border: 0;
+				border-radius: 2px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				color: #ffffff;
+				text-transform: uppercase;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<form method="POST" action="somePHPfile.php">
+			<label for="email">Subscribe to our e-mailing list</label>
+			<input type="text" name="email" id="email" placeholder="Enter email address"/>
+			<input type="submit" name="submit" value="Subscribe"/>
+		</form>
+	</body>
+</html>

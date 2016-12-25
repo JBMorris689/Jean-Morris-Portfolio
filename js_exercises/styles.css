@@ -1,0 +1,118 @@
+*{
+	margin:0px;
+	padding: 0px;
+}	
+body{
+	font-family: 'Tahoma', sans-serif; 
+	color: #555; 
+	background-color: #f0f0f0;
+}
+header{
+	width: 100%;
+	line-height: 330%;
+	height: 100px;
+	text-align: center;
+	background-color: #405580;
+	color: #fff;
+	padding-top:7px;
+}
+header h1{
+	font-size: 3em;
+}
+header p{
+	font-size: 1.1em;
+	margin-top: -20px;
+	margin-left: 12.5%;
+	font-style: italic;
+}
+nav{
+	background-color: #5D6D7E;
+	text-align: center;
+	width: 100%;
+	font-size: 0.9em;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	font-weight: bolder;
+	line-height: 30px;
+}
+nav ul a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	width: 180px;
+	padding: 0px 3px;
+}
+nav ul li:hover > a{
+	background-color: #5D6D7E;
+}
+nav ul a:hover{
+	color: #ccc;
+	background-color:#5D6D7E;
+	text-decoration: none;
+}
+hr{	
+	margin-bottom: .5em;
+}
+#container{
+	background-color: #f0f0f0;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px; 
+}
+#container p{
+	font-size: 0.9em;
+	padding-top: 9px;
+}
+.jsTerms{
+	font-style: italic;
+}
+.solutionCode:hover p{
+	display: block;
+}
+.solutionCode h4{
+	cursor: pointer;
+}
+.solutionCode p{
+	display: none;
+}
+/*-----------------------Drop down Menu-------------------------*/
+nav ul li:hover ul{
+	display: block;
+	background-color: #5D6D7E;
+}
+nav ul ul{
+	display: none;
+	position: absolute;
+}
+nav ul ul li a:hover{
+	background-color: #405580;
+}
+nav ul ul li{
+	display: block;
+	text-align: center;
+}
+/*------------------------Media query-----------------------------------*/
+@media screen and (max-width: 950px){
+	nav ul a{
+		color: #fff;
+		text-decoration: none;
+		display: block;
+		width: 150px;
+		padding: 0px 0px;
+		font-size: 12px;
+	}
+	header h1{
+		font-size: 2em;
+	}
+	header p{
+		font-size: 0.9em;
+		margin-top: -35px;
+		margin-left: 15%;
+		font-style: italic;
+	}
+}/*--End of @media--*/

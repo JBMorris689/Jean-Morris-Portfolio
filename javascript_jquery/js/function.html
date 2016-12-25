@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chartset="UTF-8"/>
+		<title>Function</title>
+		<script type="text/javascript">
+			function printToday() {
+				var today = new Date();
+				document.write("Current date: " + today.toDateString() + "<br/>");
+			}
+
+			function nameOfUser(){
+				var userInput = window.prompt("What is your name");
+				document.write("Welcome " + userInput + "<br/>")
+			}
+			function greetUser(message){//function with parameter
+				document.write(message);
+			}
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			printToday();
+			nameOfUser();
+			greetUser("Hello Earth");
+		</script>
+	</body>
+</html>

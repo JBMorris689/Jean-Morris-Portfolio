@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chartset="UTF-8"/>
+		<title>Changing CSS Properties</title>
+		<script src="jquery-1.11.2.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.red').mouseover(function(){
+					$('body').css('background-color', '#f70d0d');
+				});//End of red
+				$('.yellow').mouseover(function(){
+					$('body').css('background-color', '#fcf808');
+				});//end of yellow
+				$('.blue').mouseover(function(){
+					$('body').css('background-color', '#0019fa');
+				});//end of yellow
+			});//End of doc.ready
+		</script>
+	</head>
+	<body>
+		<button class="red">Red</button>
+		<button class="yellow">Yellow</button>
+		<button class="blue">Blue</button>
+	</body>
+</html>

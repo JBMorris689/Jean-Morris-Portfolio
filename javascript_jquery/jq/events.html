@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chartset="UTF-8"/>
+		<title>jQuery Events</title>
+		<script src="jquery-1.11.2.min.js"></script>
+		<style type="text/css">
+			/*.submenu {
+				display: none;
+			}
+			#menu ul li{
+				display: block;
+			}*/
+			#main { color: red;}
+		</style>
+		<script>
+			$(document).ready(function() {
+				//$('.submenu').hide();
+				/*$('#menu').mouseover(function() {
+					$('.submenu').show();
+				});
+				$('#menu').mouseout(function() {
+					$('.submenu').hide();
+				});
+				$('html').dblclick(function() {
+					alert("You double clicked!!");
+				});//End dblclick
+				$('h1').mouseover(function(){
+					var message = "<p>You moved the mouse over me!!</p>";
+					$('#main').append(message);*/
+					$('#menu').hover(
+						function() {
+						$('.submenu').show();
+					}, function(){
+						$('.submenu').hide();
+
+					});
+				
+			});//End ready
+		</script>
+	</head>
+	<body>
+		<ul id="menu">
+			<li><a href="#">Link One</a></li>
+				<ul class="submenu">
+					<li><a href="#">Sublink One</a></li>
+					<li><a href="#">Sublink Two</a></li>
+				</ul>
+			<li><a href="#">Link Two</a></li>
+			<li><a href="#">Link Three</a></li>
+				<ul class="submenu">
+					<li><a href="#">Sublink One</a></li>
+					<li><a href="#">Sublink Two</a></li>
+				</ul>
+			<li><a href="#">Link Four</a></li>
+		</ul>
+
+	</body>
+</html>

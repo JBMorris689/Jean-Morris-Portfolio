@@ -1,0 +1,136 @@
+body{
+	background-color: #ffffff;
+	font-family: Georgia;
+}
+#wrapper{
+	width: 60%;
+	margin: 0px auto;
+}
+p{
+	font-size: 0.9em;
+}
+header h1{
+	margin-bottom: 0px;
+	font-size: 2.3em;
+	font-family: Lucida Calligraphy;
+	color: #00CCCC;
+}
+header p{
+	margin: -.5em 0em 3em 14em;
+	font-style: italic;
+	color: #00CCCC;
+}
+header i{
+	float: right;
+	color: #00CCCC;
+	}
+nav{
+	background-color: #33CCFF;
+	border-radius: 5px;
+	line-height: 250%;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	margin-left: 0em;
+	margin-right: 1.5em;
+	font-size: 1.1em;
+}
+nav ul form{
+	list-style-type: none;
+	display: inline;
+	margin-left: 0em;
+	margin-right: 1.5em;
+	float: right;
+}
+nav ul li input{
+	border-radius: 10px;
+	font-size: .7em;
+}
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+#special h3, h4{
+	margin-bottom: 0em;
+}
+#special h4{
+	margin-bottom: 0em;
+	margin-top: 0.5em;
+}
+#special hr, p{
+	margin-top: 0em;
+}
+#special p{
+	margin-top: 0.2em;
+}
+.specialImgs{
+	width: 99%;
+	height: 12em;
+	border: solid 0.1em #ccc;
+	margin-bottom: 0em;
+}
+#specialOne{
+	width: 24%;
+	background-color: #EAEAEA;
+	float: left;
+	
+	padding: 1px;
+}
+#specialTwo{
+	width: 24%;
+	background-color: #EAEAEA;
+	float: left;
+	margin-left: .5em;
+	padding: 1px;
+}
+#specialThree{
+	width: 24%;
+	background-color: #EAEAEA;
+	float: right;
+	margin-left: .5em;
+	padding: 1px;
+}
+#specialFour{
+	width: 24%;
+	background-color: #EAEAEA;
+	float: right;
+	padding: 1px;
+}
+#welcome{
+	clear: both;
+	display: block;
+	background-color: #33CCFF;
+	float: left;
+	border-radius: 15px 15px 0px 0px;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: .3em;
+}
+/*#welcome h3{
+	color: #ffffff;
+}
+#welcome p{
+	color: #ffffff;
+}*/
+.welcomeImg{
+	width: 9em;
+	height: 11em;
+	float: left;
+	padding-right: 10px;
+}
+footer{
+	clear: both;
+	background-color: #33CCFF;
+	display: block;
+	height:5em;
+	border-radius:  0px 0px 15px 15px;
+	padding: .5em;
+}
+footer p{
+	text-align: center;
+	margin-top: 1.5em;
+}

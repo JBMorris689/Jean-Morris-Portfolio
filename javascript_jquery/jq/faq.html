@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chartset="UTF-8"/>
+		<title>Frequently Asked Question With JQ</title>
+		<script src="jquery-1.11.2.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.answer').hide();
+				//$('#question').click(function(){
+					//$('#answer').show();
+				//});
+				$('h2').click(
+					function() {
+						var $answer = $(this).next('.answer');
+						if ($answer.is(':hidden')) {
+							$answer.slideDown();
+							$(this).addClass('close');
+							}else{
+								$answer.fadeOut();
+								$(this).removeClass('close');
+							}
+					});//end h2 click/function*/
+
+ 				/*$('h2').toggle(
+					function() {
+	     			  $(this).next('.answer').slideDown();
+		   			  $(this).addClass('close');
+					},
+					function() {
+					   $(this).next('.answer').fadeOut();
+		   			   $(this).removeClass('close');
+	 				 }
+				); // end toggle*/
+			}); // end ready
+		</script>
+	</head>
+	<body>
+		<h2>When was Benzer inc. estalished?</h2>
+		<div class="answer">
+			<p>Benzer Inc. was eastablished in 1989</p>
+		</div>
+		<h2>What type of services does Benzer Inc. prodvide?</h2>
+		<div class="answer">
+			<p>Benzer Inc. provides Web design, development and hosting services.</p>
+		</div>
+		<h2>where is  Benzer inc. located?</h2>
+		<div class="answer">
+			<p>Benzer Inc. is located in Gressier.</p>
+		</div>
+	</body>
+</html>

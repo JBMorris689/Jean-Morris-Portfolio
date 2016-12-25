@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chartset="UTF-8"/>
+		<title>Change Bg Color Conditional</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//create var to hold user input
+			var favColor = prompt("What is your favorite Color(red, blue, yellow, green, black)?");
+
+			//change bc color 
+			if(favColor == "red" || favColor == "Red"){
+				document.body.style.backgroundColor="red";
+			}else if(favColor == "blue" || favColor == "Blue"){
+				document.body.style.backgroundColor="blue";
+			}else if(favColor == "yellow" || favColor == "Yellow"){
+				document.body.style.backgroundColor="yellow";
+			}else if(favColor == "green" || favColor == "Green"){
+				document.body.style.backgroundColor="green";
+			}else if(favColor == "black" || favColor == "Black"){
+				document.body.style.backgroundColor="black";
+			}else{
+				alert("That color is not supported")
+				location.reload();
+			}
+		</script>
+	</body>
+</html>

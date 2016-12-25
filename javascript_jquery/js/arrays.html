@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chartset="UTF-8"/>
+		<title>Prompt Messae</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var weekDays = new Array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday');
+			//weekDays[0] = 'Mon'-Change array value
+			var weekEndDays = ['Saturday', 'Sunday'];
+			//weekEndDays[weekEndDays.length] = 'Jupperday';-Add item to end of array
+			weekEndDays.push('Hudderday');//Add item to end of array
+			weekEndDays.unshift('Guudderday');//Add item to begining of array
+
+			document.write("<b>The length of the week is:</b> " + weekDays.length + "<br/>");
+			document.write("<b>The length of the weekend is:</b> " + weekEndDays.length);
+		</script>
+	</body>
+</html>

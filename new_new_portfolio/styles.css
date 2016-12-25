@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	overflow-x: hidden;
+	height: 100%;
+}
+header{
+	background-color: white;/*##34495e;*/
+	padding: 0 2.5rem;
+	text-align: center;
+}
+header h1{
+	letter-spacing: -0.3rem;
+}
+nav{
+	background-color: white;/*##34495e;*/
+	padding: 0 2.5rem;
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	padding: 0.5rem 1rem 0rem 1rem;
+}
+nav a{
+	text-decoration: none;
+	color: #2c3e50;
+	/*word-spacing: -0.5rem;*/
+}
+nav a:hover{	
+	border-bottom: 0.189rem solid #e67e22;
+}
+.mobileMenu{
+	text-align: left;
+	cursor: pointer;
+	display: none;
+}
+section{
+	position: relative;
+	margin:  0 -9999rem;
+	padding: 5.25rem 9999rem;
+	text-align: center;
+}
+h1{
+	font-family: 'Abril Fatface', cursive;
+  	letter-spacing: 0.2rem;
+  	font-size: 2.5rem;
+}
+nav a, p, figure{
+	font-family: 'Source Code Pro', sans-serif;
+ 	font-weight: 300;
+ 	font-size: 1.4rem;
+	letter-spacing: 0;
+ 	line-height: 2.2rem;
+}
+#nameSection{
+	background-color: #ecf0f1;
+	color:#2c3e50;
+}
+#nameSection h1{
+	text-decoration: underline;
+}
+#nameSection p{
+	text-align: center;
+}
+#nameSection p:before{
+	content:"\00ab"; 
+}
+#nameSection p:after{
+	content:"\00bb"; 
+}
+#aboutMeSection{
+	background-color: #e67e22;
+	color: #ecf0f1;
+}
+#qualificationsSection{
+	background-color: #ecf0f1;
+	color: #2c3e50;;
+}
+#pastProjectsSection{
+	background-color: #2980b9;
+	color: #ecf0f1;
+}
+#codeSnippetsSection{
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}
+#contactMeSection{
+	background-color: #34495e;
+	color: #ecf0f1;
+}
+section img{
+	padding: 0.2rem;
+}
+figure{
+	display: inline-block;
+}
+p{
+	padding: 1rem 10rem;
+	text-align: left;
+}
+/*-------------------------------Responsive Media--------------------*/
+@media screen and (max-width: 1020px){
+	nav{
+		padding: 0 2rem;
+	}
+	nav ul li{
+		padding: 0.5rem 0.5rem 0rem 0.5rem;
+	}
+	nav a{
+		font-size: 0.65rem;
+		/*word-spacing: -0.5rem;*/
+	}
+	section{
+		padding: 5.20rem 9999rem;
+	}
+	section h1{
+	  	letter-spacing: 0.1rem;
+	  	font-size: 2rem;
+	}
+	nav a, section p, figure{
+	 	font-size: 1.2rem;
+		letter-spacing: 0;
+	 	line-height: 2rem;
+	}
+	p{
+		padding: 0.8rem 8rem;
+	}
+}/*---------------------------End of media 1020px------------------------*/
+@media screen and (max-width: 893px){
+	nav{
+		padding: 0 2rem;
+	}
+	nav ul li{
+		padding: 0.5rem 0.8rem 0rem 0.8rem;
+	}
+	nav a{
+		font-size: 0.60rem;
+	}
+	section{
+		padding: 5.15rem 9999rem;
+	}
+	section h1{
+	  	letter-spacing: 0.1rem;
+	  	font-size: 1.8rem;
+	}
+	nav a, section p, figure{
+	 	font-size: 1.1rem;
+	 	line-height: 1.9rem;
+	}
+	p{
+		padding: 0.8rem 8rem;
+	}
+}/*---------------------------End of media 893px------------------------*/
+@media screen and (max-width: 805px){
+	nav{
+		padding: 0 1.5rem;
+	}
+	nav ul li{
+		padding: 0.5rem 0.6rem 0rem 0.6rem;
+	}
+	nav a{
+		font-size: 0.60rem;
+		/*word-spacing: -0.5rem;*/
+	}
+	section{
+		padding: 5.15rem 9999rem;
+	}
+	section h1{
+	  	letter-spacing: 0.1rem;
+	  	font-size: 1.7rem;
+	}
+	nav a, section p, figure{
+	 	font-size: 1rem;
+	 	line-height: 1.9rem;
+	}
+	p{
+		padding: 0.8rem 8rem;
+	}
+}/*---------------------------End of media 805px------------------------*/
+@media screen and (max-width: 805px){
+	nav{
+		padding: 0 1.5rem;
+	}
+	nav ul li{
+		padding: 0.5rem 0.6rem 0rem 0.6rem;
+	}
+	nav a{
+		font-size: 0.60rem;
+		/*word-spacing: -0.5rem;*/
+	}
+	section{
+		padding: 5.15rem 9999rem;
+	}
+	section h1{
+	  	letter-spacing: 0.1rem;
+	  	font-size: 1.7rem;
+	}
+	nav a, section p, figure{
+	 	font-size: 1rem;
+		letter-spacing: 0;
+	 	line-height: 1.9rem;
+	}
+	p{
+		padding: 0.8rem 8rem;
+	}
+}/*---------------------------End of media 768px------------------------*/
+@media screen and (max-width: 768px){
+	nav{
+		padding: 0;
+	}
+	nav ul li{
+		padding: 0.5rem 0.6rem 0rem 0.6rem;
+		border-bottom: 0.1rem solid #e67e22;
+	}
+	nav ul li:last-child{
+		border: none;
+	}
+	nav a{
+		font-size: 0.60rem;
+		/*word-spacing: -0.5rem;*/
+	}
+	nav a:hover{
+		border: none;
+	}
+	.mobileMenu{
+		text-align: left;
+		cursor: pointer;
+		display: block;
+	}
+	/*.mobileMenuIcon{
+		float: right;
+	}*/
+	section{
+		padding: 5.15rem 9999rem;
+	}
+	section h1{
+	  	letter-spacing: 0.1rem;
+	  	font-size: 1.7rem;
+	}
+	nav a, section p, figure{
+	 	font-size: 1rem;
+		letter-spacing: 0;
+	 	line-height: 1.9rem;
+	}
+	.mobileMenu p{
+		padding: 0 5.15rem;
+	}
+}/*---------------------------End of media 768px------------------------*/
